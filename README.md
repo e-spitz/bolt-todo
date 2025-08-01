@@ -30,7 +30,6 @@ Before you begin, ensure you have the following installed:
     git clone <your-repository-url>
     cd bolt-todo
     ```
-    *(Note: If you are sharing your Bolt project directly, you might instruct them to fork it from Bolt. If you export it to GitHub, provide the GitHub repository URL here.)*
 
 2.  **Install dependencies:**
     ```bash
@@ -116,6 +115,3 @@ The application will typically run on `http://localhost:5173` (or another availa
 
 This application can be easily deployed to platforms like Netlify or Vercel. Ensure your environment variables (`VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`) are correctly configured on your chosen hosting provider's dashboard.
 
----
-
-After you've updated your `.env` file with the placeholder values and added this content to your `README.md`, you should be able to change your Bolt project's visibility to "Public".
