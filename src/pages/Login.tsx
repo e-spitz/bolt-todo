@@ -34,7 +34,7 @@ export function Login() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8" style={{ backgroundColor: '#6b21a8' }}>
+    <div className="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8" style={{ backgroundColor: '#1e3a5f' }}>
       <div className="sm:mx-auto sm:w-full sm:max-w-md animate-fade-slide-up">
         <h2
           key={isSignUp ? 'signup' : 'signin'}
